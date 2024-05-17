@@ -1,7 +1,12 @@
-.navbar .navbar-expand-lg .bg-body-tertiary{
-    background:transparent;
-    background-color: rgba(0,0,0,0.0);
-      }
+nav{
+  position:fixed;
+  background-color: background-color=cyan;
+    }
 .boxx{
-  border-color:black 1px solid;
+border-color:black 1px solid;
+}
+footer{
+bottom:0;
+background-color: cyan;
+position:relative;
 }
