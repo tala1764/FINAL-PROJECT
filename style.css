@@ -1,6 +1,79 @@
-nav{
-  background-color: background-color=cyan;
+.navbar{
+  background-color: black;
 }
+/* Change border color of all navbar items on hover */
+.navbar-brand:hover{
+  color: #cf914f;
+}
+
+.navbar-brand{
+  color: #fbdf8d;
+}
+/* Change background color of dropdown toggle button and text color on hover */
+.dropdown-toggle:hover {
+  background-color: black; 
+  color: #cf914f;
+}
+
+/* Blend in the dropdown toggle button with the background */
+.dropdown-toggle {
+  background-color: black; 
+  border:transparent; /* Remove border */
+}
+
+/* Optionally, you can style the dropdown toggle button's text color */
+.dropdown-toggle {
+  color: #fbdf8d; /* Set text color */
+}
+
+.dropdown-item{
+  background-color:#fbdf8d;
+  border:transparent;
+}
+
+.dropdown-item:hover {
+  color: #cf914f;
+}
+.rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #a3f3b1;;
+}
+.bg{
+  width:95%;
+  max-height: 600px
+}
+.mio-pic{
+  max-width:60%;
+  border-image: round;
+  border-radius:50%;
+  margin-top:50px;
+  margin-left:50px;
+}
+.credit{
+  font-size:10px;
+  margin-left: 120px;
+}
+.link{
+  color:#fbdf8d;
+}
+.mio1{
+  text-align:center;
+}
+.mio{
+  font-family:"Rubik Bubbles", system-ui;
+  font-weight:400;
+  font-style:normal;
+  color:#a3f3b1;
+
+}
+.description{
+  margin-left:500px;
+  margin-top:120px;
+}
+
 h1{
   text-align: center;
 }
@@ -9,7 +82,7 @@ h1{
 }
 .footer{
   bottom:0;
-  background-color: cyan;
+  background-color: rgba(104, 62, 4, 0.727);
   max-width: 99.3%;
 }
 .ash{
@@ -493,3 +566,9 @@ h1{
   color:white;
 }
 /*DONE:Star*/
+.boxx4{
+  position: relative;
+}
+.boxx5{
+  position:relative;
+}
