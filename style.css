@@ -18,14 +18,9 @@
 /* Blend in the dropdown toggle button with the background */
 .dropdown-toggle {
   background-color: black; 
+  color: #fbdf8d ; 
   border:transparent; /* Remove border */
 }
-
-/* Optionally, you can style the dropdown toggle button's text color */
-.dropdown-toggle {
-  color: #fbdf8d; /* Set text color */
-}
-
 .dropdown-item{
   background-color:#fbdf8d;
   border:transparent;
@@ -33,6 +28,9 @@
 
 .dropdown-item:hover {
   color: #cf914f;
+}
+.more-btn{
+  background-color: #ffc0a4;
 }
 .rubik-bubbles-regular {
   font-family: "Rubik Bubbles", system-ui;
@@ -77,16 +75,26 @@
 h1{
   text-align: center;
 }
+
 .boxx{
   border-color:black 1px solid;
 }
 .footer{
   bottom:0;
-  background-color: rgba(104, 62, 4, 0.727);
+  background-color: black;
   max-width: 99.3%;
+}
+.text-footer{
+  color:white;
 }
 .ash{
   width: 300px;
+}
+.og{
+  margin-left: 6px;
+}
+.about-flo{
+  text-align:center;
 }
 /*Categories:black butler*/
 .bb {

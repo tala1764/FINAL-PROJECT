@@ -9,30 +9,31 @@
   </head>
   <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <div class="navbar-fg"> <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" id="navbarNavDarkDropdown">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <!-- Dropdown toggle button -->
               <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Categories
               </button>
               <!-- Dropdown menu -->
-              <ul class="dropdown-menu dropdown-menu-dark data-bs-target">
+              <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="anime.html">Anime</a></li>
-                <li><a class="dropdown-item" href="naturalArt.html">Natural Art</a></li>
+                <li><a class="dropdown-item" href="ogArt.html">Original Artwork</a></li>
                 <li><a class="dropdown-item" href="popCh.html">Popular Characters</a></li>
               </ul>
             </li>
           </ul>
         </div>
         <!-- About Us link -->
-        <a class="navbar-brand" href="about.html">About Us</a>
+        <div class="navbar-fg"><a class="navbar-brand" href="about.html">About Us</a></div>
       </div>
     </nav>
     <!-- End of navigation bar -->
