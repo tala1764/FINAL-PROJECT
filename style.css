@@ -9,6 +9,13 @@
 .navbar-brand{
   color: #fbdf8d;
 }
+
+.logo-s{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /* Change background color of dropdown toggle button and text color on hover */
 .dropdown-toggle:hover {
   background-color: black; 
@@ -32,28 +39,44 @@
 .more-btn{
   background-color: #ffc0a4;
 }
+/*fonts*/
 .rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400px;
+  font-style: normal;
+  text-align: center;
+  color: #fbdf8d;
+}
+
+.rubik-bubbles-regular1{
   font-family: "Rubik Bubbles", system-ui;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  color: #a3f3b1;;
+  color:#cf914f;
+
 }
+/*DONE:Fonts*/
 .bg{
   width:95%;
   max-height: 600px;
 }
 .mio-pic{
-  max-width:60%;
+  height:90%;
+  width:80%;
   border-image: round;
   border-radius:50%;
-  margin-top:50px;
-  margin-left:50px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10vh;
 }
+
 .credit{
   font-size:10px;
-  margin-left: 120px;
+  align-items: center;
 }
+
 .link{
   color:#fbdf8d;
 }
@@ -64,12 +87,24 @@
   font-family:"Rubik Bubbles", system-ui;
   font-weight:400;
   font-style:normal;
-  color:#a3f3b1;
-
 }
 .description{
-  margin-left:500px;
-  margin-top:120px;
+  margin-top:25vh;
+  margin-left:80vh;
+}
+
+.flower{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50vh;
+}
+.abtt{
+  font-size:45px;
+}
+.abt{
+  font-size:26px;
+
 }
 
 h1{
@@ -80,12 +115,47 @@ h1{
   border-color:black 1px solid;
 }
 .footer{
-  bottom:0;
+  min-height:25vh;
+  flex-direction:column;
   background-color: #ec8381 ;
 }
 .text-footer{
   color:white;
 }
+/*About page*/
+.abt-c{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50vh;
+  height:50vh;
+  border-radius: 50%;
+}
+
+.abt-v{
+  text-shadow: 2px 2px 5px black;
+  font-size:26px;
+  margin-top:3vh;
+}
+
+.abt-b{
+  margin-top:5vh;
+}
+
+.abt-o{
+  text-shadow: 2px 2px 5px black;
+}
+
+.sofia-regular {
+  font-size:20px;
+  font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*DONE:About page*/
+
 .ash{
   width: 300px;
 }

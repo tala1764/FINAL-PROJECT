@@ -49,37 +49,62 @@
           <img src="pictures/bg.jpg" class="d-block w-100 bg" alt="...">
           <!--Text Overlayed-->
           <div class="card-img-overlay">
-            <img src="pictures/logo-only.png" alt="..." style="width:100vh;height:100vh; ">
-            <h4 class="rubik-bubbles-regular">Welcome!</h4>
-            <h5 class="rubik-bubbles-regular">To our website where we sell hand drawn paintings made by the artist MISHO~</h5>
+            <div class="row">
+              <!--Place holder#1-->
+              <div class="col-md-3">
+              </div>
+              <!--DONE:PLace holder#1-->
+              <!--Logo-->
+              <div class="col-md-6">
+                <img class="img-fluid logo-s" src="pictures/logo-only.png" alt="...">
+                <h4 class="rubik-bubbles-regular text-center" style="align-items: center; margin-top:-30px">Welcome!</h4>
+                <h5 class="rubik-bubbles-regular text-center">To our website where we sell hand drawn paintings made by the artist MISHO~</h5>
+              </div>
+              <!--DONE:Logo-->
+              <!--Place holder#2-->
+              <div class="col-md-3">
+              </div>
+              <!--DONE:Place holder#2-->
+
+            </div>
           </div>
         </div>
         <div class="carousel-item">
           <img src="pictures/bg.jpg" class="d-block w-100 bg" alt="...">
           <!--Text Overlayed-->
-          <div class="row">
-            <div class="card-img-overlay col-md-6">
-              <!--MISHO pic-->
+          <div class="row mish">
+            <div class="card-img-overlay">
+              <!--Place holder#1-->
+              <div class="col-md-1">
+              </div>
+              <!--DONE:Place holder#1-->
+              <div class="col-md-5">
+                <!--MISHO pic-->
                 <img class="mio-pic" src="pictures/misho3.jpeg" alt="...">
-                <p class="credit">Photo Credit: <a class="link" href="https://playground.com/post/-anime-style-portrayal-of-a-confident-muslim-girl-wearing-a--clu0ovc4o0ge6s601idxq5tn3" alt="...">Playground[Albedriya Heyrdin Emhal6829]</a></p>
-              <!--DONE:MISHO pic-->
-
-            </div>
-            <div class="card-img-overlay col-md-6 description">
-              <!--Description about MISHO-->
-              <h3 class="rubik-bubbles-regular mio1 mio">Who is MISHO?</h4>
-              <h5 class="rubik-bubbles-regular mio">-She is a Syrian artist who found her passion towards
-                architecture and is currently a 2nd year college student! As her hobby, she has 
-                always been passionate about art and has been drawing since age 6. Throughout the
-                years, her art skills have frequently developed to th point that no painting has the same quality as the other. Of course, MIOSH is only a nickname to maintain her identity anonymous for 
-                protection purposes.
-              </h5>
-              <!--DONE:Description about MISHO-->
+                <p class="credit text-center">Photo Credit: <a class="link" href="https://playground.com/post/-anime-style-portrayal-of-a-confident-muslim-girl-wearing-a--clu0ovc4o0ge6s601idxq5tn3" alt="...">Playground[Albedriya Heyrdin Emhal6829]</a></p>
+                <!--DONE:MISHO pic-->
+              </div>
+              <div class="col-md-5">
+                <div class="card-img-overlay col-md-6 description">
+                  <!--Description about MISHO-->
+                  <h3 class="rubik-bubbles-regular mio1 mio">Who is MISHO?</h3>
+                  <h5 class="rubik-bubbles-regular mio">-She is a Syrian artist who found her passion towards
+                    architecture and is currently a 2nd year college student! As her hobby, she has 
+                    always been passionate about art and has been drawing since age 6. Throughout the
+                    years, her art skills have frequently developed to th point that no painting has the same quality as the other. Of course, MIOSH is only a nickname to maintain her identity anonymous for 
+                    protection purposes.
+                  </h5>
+                  <!--DONE:Description about MISHO-->
+                </div>
+              </div>
+              <!--Place holder#2-->
+              <div class="col-md-1">
+              </div>
+              <!--DONE:Place holder#2-->
             </div>
           </div>
-
         </div>
-      </div>
+      </div> 
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -90,6 +115,8 @@
       </button>
     </div>
     <!--DONE:Carousel-->
+
+
     <div class="container">
       <!--DIV#3-->
       <!--DONE:DIV#3-->
@@ -147,23 +174,20 @@
       <div class="row">
         <div class="card">
           <img src="pictures/about-flower.jpeg" class="card-img col-md-6 about-flo"alt="...">
-          <div class="card-img-overlay col-md-6 about-flo">
-           <h5 class="card-title">~About Us~</h5>
-           <p class="card-text">More information about us and our contact information:</p>
-           <p class="card-text"><small><a href="about.html">More info-</a></small></p>
+          <div class="card-img-overlay col-md-6 about-flo flower">
+           <h5 class="card-title abtt rubik-bubbles-regular1">~About Us~</h5>
+           <p class="card-text abt">More information about us and our business:</p>
+           <p class="card-text abt"><small><a href="about.html">More info-</a></small></p>
           </div>
         </div>
       </div>
       <!--DONE:DIV#5-->
-
-      <br>
-      <br>
     </div> 
     <!-- end of container -->
     <!--footer div-->
     <div class="container">
       <!--FOOTER-->
-      <div class="card footer text-footer container"style="text-align: center;">
+      <div class="card footer text-footer container"style="text-align: center; bottom:0;">
         <h5 class="card-header">Featured</h5>
         <div class="card-body">
           <div class="row" style="text-align: center;">
@@ -197,46 +221,47 @@
             </div>
             <!--DONE:Place holder#2-->
           </div>
-          <!--Content(info)-->
-          <div class="tab-content" id="nav-tabContent">
-            <div class="fade show fade active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-              <table class="table M-T" style="color:#ec8381;">
-                <tr>
-                  <th>Phone Number:</th>
-                  <td>(773)-809-0121</td>
-                </tr>
-                <tr>
-                  <th>Instagram:</th>
-                  <td>mary000</td>
-                </tr>
-                <tr>
-                  <th>WhattsApp</th>
-                </tr>
-                <tr>
-                  <th>FaceBook</th>
-                </tr>
-              </table>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <table class="table table-sm">
+                  <tr>
+                    <th>Phone Number:</th>
+                    <td>(773)-809-0121</td>
+                  </tr>
+                  <tr>
+                    <th>Instagram:</th>
+                    <td>mary000</td>
+                  </tr>
+                  <tr>
+                    <th>WhattsApp</th>
+                  </tr>
+                  <tr>
+                    <th>FaceBook</th>
+                  </tr>
+                </table>
+                <!--DONE: MISHO contact info-->
+          
+          
+              </div>
+              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <!--Tala contact info-->
+                <table>
+                  <tr>
+                    <th>Phone Number:</th>
+                    <td>(872)-808-6391</td>
+                  </tr>
+                  <tr>
+                    <th>Instagram:</th>
+                    <td>tro176</td>
+                  </tr>
+                  <tr>
+                    <th>WhattsApp</th>
+                  </tr>
+                </table>
+                <!--DONE:Tala contact info-->
+              </div>
             </div>
-            <!--DONE:MISHO contact info-->
-          </div>
-          <div class="tab-content" id="nav-tabContent">
-            <!--Tala contact info-->
-            <div class="tab-pane show fade active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-              <table class=" table t-t">
-                <tr>
-                  <th>Phone Number:</th>
-                  <td>(872)-808-6391</td>
-                </tr>
-                <tr> 
-                  <th>Instagram:</th>
-                  <td>tro-176</td>
-                </tr>
-                <tr>
-                  <th>WhattsApp</th>
-                </tr>
-              </table>
-            </div>
-            <!--DONE; Tala contact Info-->
           </div>
         </div>
       </div>
