@@ -14,6 +14,7 @@
   display:block;
   margin-left:auto;
   margin-right:auto;
+  margin-top: auto;
 }
 
 /* Change background color of dropdown toggle button and text color on hover */
@@ -59,7 +60,7 @@
 /*DONE:Fonts*/
 .bg{
   width:95%;
-  max-height: 800px;
+  max-height: 700px;
 }
 .mio-pic{
   height:90%;
@@ -97,7 +98,7 @@
   display:block;
   margin-left:auto;
   margin-right:auto;
-  margin-top:50vh;
+  margin-top:30vh;
 }
 .abtt{
   font-size:45px;
@@ -317,16 +318,23 @@ h1{
 
 /*Subaru*/
 .dl {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color:rgb(84, 24, 121);
 }
 
 .image3 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -336,27 +344,41 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top:200px;
-  left: 50%;
+  top:35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .dl:hover .image3 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .dl:hover .middle3 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text3 {
   background-color:rgb(78, 6, 145);
   color: white;
-  font-size: 38px;
+  font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t {
   color:white;
@@ -377,17 +399,23 @@ h1{
 
 /*Who Am I?*/
 .wai {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
-  max-width: 40%;
+  max-width: 32%;
   background-color:rgb(26, 25, 25);
-  max-height: 435px;
 }
 
 .image4 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -397,19 +425,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   max-height:380px;
 }
 
 .wai:hover .image4 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .wai:hover .middle4 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text4 {
@@ -418,6 +457,9 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t4{
   color:white
@@ -426,17 +468,23 @@ h1{
 
 /*Cat Guy*/
 .cg {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
-  max-width: 40%;
+  width: 32%;
   background-color:rgb(26, 25, 25);
-  max-height: 435px;
 }
 
 .image5 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -446,19 +494,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 45%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .cg:hover .image5 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .cg:hover .middle5 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text5 {
@@ -467,6 +526,9 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t5{
   color:white
@@ -475,16 +537,23 @@ h1{
 
 /*Rabbit*/
 .r {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color:rgb(252, 197, 93)  ;
 }
 
 .image6 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -493,19 +562,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vhx;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .r:hover .image6 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .r:hover .middle6 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text6 {
@@ -514,21 +594,29 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 /*DONE: Rabbit*/
 
 /*Frog Face*/
 .ff {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color:rgb(27, 28, 97)  ;
 }
 
 .image7 {
+  border-radius:2%;
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -538,19 +626,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .ff:hover .image7 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .ff:hover .middle7 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text7 {
@@ -559,6 +658,9 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t7{
   color:white;
@@ -567,16 +669,23 @@ h1{
 
 /*Fantasy*/
 .f {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 35%;
   background-color:rgb(123, 65, 44)  ;
 }
 
 .image8 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -586,19 +695,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .f:hover .image8 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .f:hover .middle8 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text8 {
@@ -607,6 +727,9 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t8{
   color:white;
@@ -615,16 +738,23 @@ h1{
 
 /*Fairy*/
 .fr {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color:rgb(27, 28, 97)  ;
 }
 
 .image9 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -634,19 +764,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .fr:hover .image9 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .fr:hover .middle9 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text9 {
@@ -655,6 +796,9 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t9{
   color:white;
@@ -663,16 +807,23 @@ h1{
 
 /*Star*/
 .s{
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 70%;
   background-color:rgb(27, 28, 97)  ;
 }
 
 .image10 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -682,19 +833,30 @@ h1{
   opacity: 0;
   position: absolute;
   color:white;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   max-height:380px;
 }
 
 .s:hover .image10 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .s:hover .middle10 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text10 {
@@ -702,6 +864,9 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t10{
   color:white;
@@ -710,16 +875,23 @@ h1{
 
 /*Kim Taehyung*/
 .kt {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color: rgb(40, 40, 139) ;
 }
 
 .image11 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -729,19 +901,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .kt:hover .image11 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .kt:hover .middle11 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text11 {
@@ -750,6 +933,9 @@ h1{
   font-size: 36px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t11{
   color:white;
@@ -758,16 +944,23 @@ h1{
 
 /*Messi*/
 .messi {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color:rgb(99, 168, 210)  ;
 }
 
 .image12 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -776,19 +969,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .messi:hover .image12 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .messi:hover .middle12 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text12 {
@@ -797,7 +1001,11 @@ h1{
   font-size: 36px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
+
 .t12{
   color:white;
 }
@@ -805,16 +1013,23 @@ h1{
 
 /*Park Jimin*/
 .pj {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color:rgb(204, 16, 163)  ;
 }
 
 .image13 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -823,19 +1038,30 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
-  left: 50%;
+  top: 35vh;
+  left: 27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:440px;
 }
 
 .pj:hover .image13 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .pj:hover .middle13 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text13 {
@@ -844,6 +1070,9 @@ h1{
   font-size: 36px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t13{
   color:white;
