@@ -58,6 +58,17 @@
 
 }
 /*DONE:Fonts*/
+
+.d-card{
+  border:5px dotted rgba(255, 22, 112, 0.799);
+}
+
+.c-link{
+  display:block;
+  margin-left:10vh;
+  margin-right:auto;
+}
+
 .bg{
   width:95%;
   max-height: 700px;
@@ -98,7 +109,7 @@
   display:block;
   margin-left:auto;
   margin-right:auto;
-  margin-top:30vh;
+  margin-top:50vh;
 }
 .abtt{
   font-size:45px;
@@ -106,6 +117,9 @@
 .abt{
   font-size:26px;
 
+}
+.abt:hover{
+  color:#338651
 }
 
 h1{
@@ -120,6 +134,17 @@ h1{
   flex-direction:column;
   background-color: #ec8381 ;
 }
+.f-display{
+  display:block;
+  margin-left:5vh;
+  margin-right:5vh;
+}
+
+.setting{
+  border:3px solid rgb(114, 229, 114);
+}
+
+
 .text-footer{
   color:white;
 }
@@ -176,12 +201,13 @@ h1{
 /*DONE:Content Settings*/
 /*Categories:black butler        http://tala1764.github.io/FINAL-PROJECT/*/
 .bb {
+  margin:2px;
   border:1px solid;
   box-shadow:5px 10px 8px 10px #555252;
   border-radius:10%;
   position: relative;
   padding:-30px;
-  width: 35%;
+  width: 32%;
   background-color:rgb(103, 21, 21);
 }
 
@@ -192,7 +218,7 @@ h1{
   margin-left:auto;
   margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -200,16 +226,16 @@ h1{
 .middle1 {
   transition: .5s ease;
   opacity: 0;
-  position: absolute;
-  top: 35vh;
+  position:absolute;
+  top: 32vh;
   color:white;
-  left: 30%;
+  left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .bb:hover .image1 {
@@ -278,14 +304,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left:27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .bf:hover .image2 {
@@ -344,14 +370,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top:35vh;
+  top:32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .dl:hover .image3 {
@@ -425,14 +451,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:410px;
 }
 
 .wai:hover .image4 {
@@ -494,14 +520,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .cg:hover .image5 {
@@ -547,7 +573,7 @@ h1{
 }
 
 .image6 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   margin-left:auto;
@@ -562,14 +588,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vhx;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .r:hover .image6 {
@@ -608,11 +634,11 @@ h1{
   border-radius:10%;
   position: relative;
   width: 32%;
-  background-color:rgb(27, 28, 97)  ;
+  background-color:rgb(42, 96, 49)  ;
 }
 
 .image7 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   width: 100%;
@@ -626,14 +652,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .ff:hover .image7 {
@@ -653,7 +679,7 @@ h1{
 }
 
 .text7 {
-  background-color: #713d1f;
+  background-color: #338651;
   color: white;
   font-size: 45px;
   text-align:center;
@@ -669,7 +695,6 @@ h1{
 
 /*Fantasy*/
 .f {
-  margin:2px;
   border: 1px solid;
   box-shadow: 5px 10px 8px 10px #555252;
   border-radius:10%;
@@ -679,7 +704,7 @@ h1{
 }
 
 .image8 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   margin-left:auto;
@@ -695,14 +720,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
-  left: 27vh;
+  top: 30vh;
+  left: 40vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:390px;
 }
 
 .f:hover .image8 {
@@ -744,11 +769,11 @@ h1{
   border-radius:10%;
   position: relative;
   width: 32%;
-  background-color:rgb(27, 28, 97)  ;
+  background-color:rgb(219, 75, 99)  ;
 }
 
 .image9 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   margin-left:auto;
@@ -764,14 +789,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .fr:hover .image9 {
@@ -791,7 +816,7 @@ h1{
 }
 
 .text9 {
-  background-color: #0a1833;
+  background-color: #c4406c;
   color: white;
   font-size: 45px;
   text-align:center;
@@ -807,7 +832,6 @@ h1{
 
 /*Star*/
 .s{
-  margin:2px;
   border: 1px solid;
   box-shadow: 5px 10px 8px 10px #555252;
   border-radius:10%;
@@ -817,7 +841,7 @@ h1{
 }
 
 .image10 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   margin-left:auto;
@@ -833,14 +857,14 @@ h1{
   opacity: 0;
   position: absolute;
   color:white;
-  top: 35vh;
-  left: 27vh;
+  top: 30vh;
+  left: 40vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:380px;
+  max-height:390px;
 }
 
 .s:hover .image10 {
@@ -861,6 +885,7 @@ h1{
 
 .text10 {
   color: white;
+  background-color:rgb(28, 28, 77);
   font-size: 45px;
   text-align:center;
   width:300px;
@@ -885,7 +910,7 @@ h1{
 }
 
 .image11 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   margin-left:auto;
@@ -901,14 +926,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .kt:hover .image11 {
@@ -954,7 +979,7 @@ h1{
 }
 
 .image12 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   margin-left:auto;
@@ -969,14 +994,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .messi:hover .image12 {
@@ -1023,7 +1048,7 @@ h1{
 }
 
 .image13 {
-  border-radius:2%;
+  border-radius:6%;
   opacity: 1;
   display: block;
   margin-left:auto;
@@ -1038,14 +1063,14 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 35vh;
+  top: 32vh;
   left: 27vh;
   display:block;
   margin-left:auto;
   margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:440px;
+  max-height:410px;
 }
 
 .pj:hover .image13 {
