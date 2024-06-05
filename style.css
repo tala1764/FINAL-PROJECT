@@ -59,7 +59,7 @@
 /*DONE:Fonts*/
 .bg{
   width:95%;
-  max-height: 600px;
+  max-height: 800px;
 }
 .mio-pic{
   height:90%;
@@ -69,7 +69,7 @@
   display:block;
   margin-left:auto;
   margin-right:auto;
-  margin-top:10vh;
+  margin-top:2vh;
 }
 
 .credit{
