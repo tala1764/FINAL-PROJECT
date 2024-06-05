@@ -165,16 +165,31 @@ h1{
 .about-flo{
   text-align:center;
 }
-/*Categories:black butler*/
+
+/*Content Settings*/
+.info{
+  overflow:auto;
+  fill-opacity: initial;
+  text-align:center;
+}
+/*DONE:Content Settings*/
+/*Categories:black butler        http://tala1764.github.io/FINAL-PROJECT/*/
 .bb {
+  border:1px solid;
+  box-shadow:5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
-  width: 32%;
+  padding:-30px;
+  width: 35%;
   background-color:rgb(103, 21, 21);
 }
 
 .image1 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
   height: auto;
   transition: .5s ease;
@@ -185,27 +200,42 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 52%;
-  left: 50%;
+  top: 35vh;
+  color:white;
+  left: 30%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:440px;
 }
 
 .bb:hover .image1 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .bb:hover .middle1 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text1 {
   background-color: rgb(72, 18, 18);
   color: white;
-  font-size: 15.5px;
-  padding: 16px 32px;
-  width:309px;
+  font-size: 45px;
+  text-align:center;
+  width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 .t2{
   font-size:14px;
@@ -215,37 +245,62 @@ h1{
 
 /*Ash*/
 .bf {
+  margin:2px;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px 10px #555252;
+  border-radius:10%;
   position: relative;
   width: 32%;
   background-color:rgb(79, 208, 188);
 }
 
 .image2 {
+  border-radius:2%;
   opacity: 1;
   display: block;
+  margin-left:auto;
+  margin-right:auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+
+}
+
+.content{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .middle2 {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 186px;
-  left: 50%;
+  top: 35vh;
+  left:27vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:440px;
 }
 
 .bf:hover .image2 {
-  opacity: 0.3;
+  opacity: 0.5;
+  border-radius:20%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .bf:hover .middle2 {
   opacity: 1;
+  border-radius:20%;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .text2 {
@@ -254,6 +309,9 @@ h1{
   font-size: 45px;
   text-align:center;
   width:300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 /*DONE: Ash*/
 
@@ -274,14 +332,15 @@ h1{
 }
 
 .middle3 {
+  color:white;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top:160px;
+  top:200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  max-height:320px;
+  max-height:380px;
 }
 
 .dl:hover .image3 {
@@ -334,14 +393,15 @@ h1{
 }
 
 .middle4 {
+  color:white;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 51%;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .wai:hover .image4 {
@@ -382,14 +442,15 @@ h1{
 }
 
 .middle5 {
+  color:white;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 81%;
+  top: 200px;
   left: 45%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .cg:hover .image5 {
@@ -432,11 +493,11 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 198px;
-  left: 45%;
+  top: 200px;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .r:hover .image6 {
@@ -473,14 +534,15 @@ h1{
 }
 
 .middle7 {
+  color:white;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 138px;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .ff:hover .image7 {
@@ -492,7 +554,7 @@ h1{
 }
 
 .text7 {
-  background-color: #0a1833;
+  background-color: #713d1f;
   color: white;
   font-size: 45px;
   text-align:center;
@@ -506,8 +568,8 @@ h1{
 /*Fantasy*/
 .f {
   position: relative;
-  width: 32%;
-  background-color:rgb(27, 28, 97)  ;
+  width: 35%;
+  background-color:rgb(123, 65, 44)  ;
 }
 
 .image8 {
@@ -519,15 +581,16 @@ h1{
   backface-visibility: hidden;
 }
 
-.middle8 {
+.middle8 { 
+  color:white;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 138px;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .f:hover .image8 {
@@ -539,7 +602,7 @@ h1{
 }
 
 .text8 {
-  background-color: #0a1833;
+  background-color: #8a3927;
   color: white;
   font-size: 45px;
   text-align:center;
@@ -567,14 +630,15 @@ h1{
 }
 
 .middle9 {
+  color:white;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 138px;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .fr:hover .image9 {
@@ -617,11 +681,12 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 138px;
+  color:white;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .s:hover .image10 {
@@ -633,7 +698,6 @@ h1{
 }
 
 .text10 {
-  background-color: #0a1833;
   color: white;
   font-size: 45px;
   text-align:center;
@@ -661,14 +725,15 @@ h1{
 }
 
 .middle11 {
+  color:white;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 191px;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .kt:hover .image11 {
@@ -711,11 +776,11 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 138px;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .messi:hover .image12 {
@@ -758,11 +823,11 @@ h1{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 135px;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  max-height:380px;
 }
 
 .pj:hover .image13 {

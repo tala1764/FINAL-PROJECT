@@ -486,3 +486,135 @@
           </button>
         </div>
         <!--DONE:Carousel-->
+
+
+        <!--DISPLAY ON HTML-->
+
+        // Sample data
+var paintingsForSale = {
+    bb: {
+        title: "Black Butler",
+        artist: "MISHO",
+        description: "Black Butler is an anime about demon contractions that was released in 2008.The characters being shown are Ciel Phantomhive, the Earl of the Phantomhive family, and Sebastian Michaelis, the head butler of the mansion.",
+        price: 30,
+    },
+    ash: {
+        title: "Banana Fish",
+        artist: "MISHO",
+        description: "-This painting was based off of the anime show Banana Fish, which was released back in 2018. The character shown is the protagonist, Ash Lynx.",
+        price: 20,
+    },
+    subaru:{
+        title: "Diabolik Lovers",
+        artist:"MISHO",
+        description: "-This painting was based off of the anime show Diabolik Lovers, which was released back in 2013. The character shown is one of the 6 vampire brothers, Subaru Sakamaki.",
+        price: 15,
+    },
+      wai:{
+        title: "WHO AM I?..",
+        artist:"MISHO",
+        description:"-This painting was based off of MISHO's imagination, in which the painting doesn't show any emotion, it's a mystery that shall never be resolved.",
+        price:15,
+    }
+};
+
+
+// Sample data
+var paintingsForSale = {
+    bb: {
+        title: "Black Butler",
+        artist: "MISHO",
+        description: "Black Butler is an anime about demon contractions that was released in 2008.The characters being shown are Ciel Phantomhive, the Earl of the Phantomhive family, and Sebastian Michaelis, the head butler of the mansion.",
+        price: 30,
+    },
+    ash: {
+        title: "Banana Fish",
+        artist: "MISHO",
+        description: "-This painting was based off of the anime show Banana Fish, which was released back in 2018. The character shown is the protagonist, Ash Lynx.",
+        price: 20,
+    },
+    subaru:{
+        title: "Diabolik Lovers",
+        artist:"MISHO",
+        description: "-This painting was based off of the anime show Diabolik Lovers, which was released back in 2013. The character shown is one of the 6 vampire brothers, Subaru Sakamaki.",
+        price: 15,
+    },
+    wai:{
+        title: "WHO AM I?..",
+        artist:"MISHO",
+        description:"-This painting was based off of MISHO's imagination, in which the painting doesn't show any emotion, it's a mystery that shall never be resolved.",
+        price:15,
+    }
+};
+
+// Define paintingsForSale object
+var paintingsForSale = {
+    bb: {
+        title: "Black Butler",
+        artist: "MIOSH",
+        description: "Black Butler is an anime about demon contractions that was released in 2008. The characters being shown are Ciel Phantomhive, the Earl of the Phantomhive family, and Sebastian Michaelis, the head butler of the mansion.",
+        price: 30,
+    },
+    ash: {
+        title: "Banana Fish",
+        artist: "MISHO",
+        description: "-This painting was based off of the anime show Banana Fish, which was released back in 2018. The character shown is the protagonist, Ash Lynx.",
+        price: 20,
+    },
+    subaru:{
+        title: "Diabolik Lovers",
+        artist:"MISHO",
+        description: "-This painting was based off of the anime show Diabolik Lovers, which was released back in 2013. The character shown is one of the 6 vampire brothers, Subaru Sakamaki.",
+        price: 15,
+    },
+    wai:{
+        title: "WHO AM I?..",
+        artist:"MISHO",
+        description:"-This painting was based off of MISHO's imagination, in which the painting doesn't show any emotion, it's a mystery that shall never be resolved.",
+        price:15,
+    }
+};
+
+// Function to display paintings in HTML
+function displayPaintings() {
+    console.log('Displaying paintings...');
+    var paintingsContainer = document.querySelector('.paintings-anime');
+
+    // Clear previous content
+    paintingsContainer.innerHTML = '';
+
+    // Loop through each painting and create HTML elements
+    for (var key in paintingsForSale) {
+        if (paintingsForSale.hasOwnProperty(key)) {
+            var painting = paintingsForSale[key];
+
+            var paintingElement = document.createElement('div');
+            paintingElement.classList.add('painting');
+
+            var titleElement = document.createElement('h2');
+            titleElement.textContent = painting.title;
+
+            var artistElement = document.createElement('p');
+            artistElement.textContent = 'Artist: ' + painting.artist;
+
+            var descriptionElement = document.createElement('p');
+            descriptionElement.textContent = 'Description: '+painting.description;
+
+            var priceElement = document.createElement('p');
+            priceElement.textContent = 'Price: $' +painting.price.toFixed(2);
+
+            paintingElement.appendChild(titleElement);
+            paintingElement.appendChild(artistElement);
+            paintingElement.appendChild(descriptionElement);
+            paintingElement.appendChild(priceElement);
+
+            paintingsContainer.appendChild(paintingElement);
+        }
+    }
+}
+
+// Call the displayPaintings function to initially display paintings
+displayPaintings();
+
+<!--DONE:DISPLAY ON HTML-->
+
