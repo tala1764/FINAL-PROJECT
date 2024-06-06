@@ -1,47 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Cart</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link  rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> MISHO Art</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link  rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
-      </head>
-      <body style="background-color: #fcc59e ;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MISHO Art</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link  rel="stylesheet" href="style.css">  
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:#fcc59e;">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="navbar-fg"> <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                    <!-- Dropdown toggle button -->
+                    <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </button>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="anime.html">Anime</a></li>
+                        <li><a class="dropdown-item" href="ogArt.html">Original Artwork</a></li>
+                        <li><a class="dropdown-item" href="popCh.html">Popular Characters</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--My Cart-->
+            <div class="navbar-fg"><a class="navbar-brand" href="cart.html">My Cart</a></div>
+            <!--DONE:My Cart-->
 
-        <div class="container">
-            <!--Important ofr JS-->
-            <div id="item-buttons-container"></div>
-            <h2 style="text-align:center;">My Cart:</h2>
-            <button id="bb-button" style="text-align:center;">Add Ciel X Sebastian to cart</button>
-            <button id="bf-button" style="text-align:center;">Add Ash Lynx to cart</button>
-            <button id="dl-button" style="text-align:center;">Add Subaru Sakamaki to cart</button>
-            <button id="wai-button" style="text-align:center;">Add Who Am I?.. to cart</button>
-            <button id="cg-button" style="text-align:center;">Add Cat Guy to cart</button>
-            <button id="r-button" style="text-align:center;">Add SKy Dancers to cart</button>
-            <button id="ff-button" style="text-align:center;">Add The Road to cart</button>
-            <button id="fr-button" style="text-align:center;">Add Fairy to cart</button>
-            <button id="rose-button" style="text-align:center;">Add Rose to cart</button>
-            <button id="n-button" style="text-align:center;">Add The Nebula to cart</button>
-            <button id="kt-button" style="text-align:center;">Add BTS: Kim Taehyung to cart</button>
-            <button id="messi-button" style="text-align:center;">Add Lionel Messi to cart</button>
-            <button id="pj-button" style="text-align:center;">Add BTS: Park Jimin to cart</button>
-            <button id="cancel-button" style="text-align:center;">Cancel Last Item</button>
-            <div id="total-display" style="text-align:center;">Total: $0.00</div>
-            <!--DONE-->
-
+            <!-- About Us link -->
+            <div class="navbar-fg"><a class="navbar-brand" href="about.html">About Us</a></div>
         </div>
+        </nav>
+        <!-- End of navigation bar -->
+        <div class="container">
+            <br>
+            <h1 class="rubik-bubbles-regular abt-o">My Shopping Cart!</h1>
+            <h5 class="sofia-regular" style="text-align:center; ">Add the paintings you would like to purchase into your cart!</h5>
+            <div class="row">
+                <!--Anime-->
+                <div class="items col-md-6 ti">
+                    <h3 class="rubik-bubbles-regular abt-o name">Anime<br> Paintings</h3>
+                    <div class="item sofia-regular" data-price="30">Ciel X Sebastian - $30</div>
+                    <div class="item sofia-regular" data-price="20">Ash Lynx - $20</div>
+                    <div class="item sofia-regular" data-price="15">Subaru Sakamaki - $15</div>
+                    <div class="item sofia-regular" data-price="15">Who Am I?..-$15</div>
+                    <div class="item sofia-regular" data-price="20">Cat Guy-$20</div>
 
-    <script src="shopping_cart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            
+                </div>
+                <!--DONE:Anime-->
 
-</body>
+                <!--OG Art-->
+                <div class="items col-md-6 ti">
+                    <h3 class="rubik-bubbles-regular abt-o name">Original<br> Artwork</h3>
+                    <div class="item sofia-regular" data-price="15">Sky Dancers-$15</div>
+                    <div class="item sofia-regular" data-price="25">The Road-$25</div>
+                    <div class="item sofia-regular" data-price="15">Fairy-$15</div>
+                    <div class="item sofia-regular" data-price="35">Rose-$35</div>
+                    <div class="item sofia-regular" data-price="35">The Nebula-$35</div>
+                </div>
+                <!--DONE:OG Art-->
+            </div>
+            <!--DONE: row-->
+            <br>
+            <div class="row">
+                <!--Display total cost-->
+                <div class="col-md-3">
+                    <h2 class="seymour-one-regular abt-o">Total Amount: <span id="totalAmount">$0</span></h2>
+                </div>
+                <!--DONE:Display total cost-->
+
+                <!--Pop Characters-->
+                <div class="items col-md-6">
+                    <h3 class="rubik-bubbles-regular abt-o name">Popular<br>Characters</h3>
+                    <div class="item sofia-regular" data-price="40">BTS:Kim Taehyung-$40</div>
+                    <div class="item sofia-regular" data-price="25">Lionel Messi-$25</div>
+                    <div class="item sofia-regular" data-price="20">BTS:Park Jimin-$20</div>
+                </div>
+                <!--DONE:Pop Characters-->
+                <br>
+                <!--Display # of items in cart-->
+                <div class="col-md-3">
+                    <h2 class="seymour-one-regular abt-o">Items in cart: <span id="itemCount">0</span></h2>
+                </div>
+                <!--DONE:Display # of items in cart-->
+            </div>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <!--footer div-->
+            <div class="container">
+                <!--footer div-->
+                <div class="card footer">
+                    <div class="card-header">
+                        Copyrights Go To Tala Tleibi
+                    </div>
+                    <div class="card-body f-display">
+                        <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">MISHO</th>
+                            <th scope="col">Instagram:</th>
+                            <th scope="col">mary000</th>
+                            <td>Phone Number:</td>
+                            <td>(773)-809-0121</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">Tala Tleibi</th>
+                            <td>Instagram:</td>
+                            <td>tro176</td>
+                            <td>Phone Number:</td>
+                            <td>(872)808-6391</td>
+                            </tr>
+                            <tr>
+                            <th></th>
+                            <td colspan="2">WhattsApp</td>
+                            <td>Facebook</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--DONE:footer div-->
+            </div>
+
+
+
+            <script>
+                // Function to handle item click
+                function onItemClick(event) {
+                    var item = event.target;
+                    var price = parseFloat(item.getAttribute('data-price'));
+
+                    if (!item.classList.contains('selected')) {
+                        item.classList.add('selected');
+                        totalAmount += price;
+                        itemCount++;
+                    } 
+                    else {
+                        item.classList.remove('selected');
+                        totalAmount -= price;
+                        itemCount--;
+                    }
+                    //Variables displayed ( using variables for values, even the prompts)
+                    totalAmountSpan.textContent = '$' + totalAmount.toFixed(2);
+                    itemCountSpan.textContent = itemCount;
+                }
+                // Function to display number of items in cart
+                function displayItemCount() {
+                    itemCountSpan.textContent = itemCount;
+                }
+
+                // Define variables
+                var totalAmount = 0;
+                var itemCount=0;
+                var items = document.querySelectorAll('.item');
+                var totalAmountSpan = document.getElementById('totalAmount');
+                var itemCountSpan = document.getElementById('itemCount');
+
+                // Add event listeners to items
+                items.forEach(function(item) {
+                    item.addEventListener('click', onItemClick);
+                });
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </div>
+    </body>
 </html>
